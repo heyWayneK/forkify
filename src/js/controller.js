@@ -7,7 +7,6 @@ import bookmarksView from './views/bookmarksView.js';
 import addRecipeView from './views/addRecipeView.js';
 import { MODAL_AUTO_CLOSE_SECS, API_KEY } from './config.js';
 
-gitalert('hey how are you');
 //
 
 /* DON'T FORGET TO POLYFILL WITH PARCEL

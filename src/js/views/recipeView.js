@@ -1,7 +1,8 @@
 // import icons from '../img/icons.svg'; // Parcel v1 style
 // import icons from 'url:../../img/icons.svg'; // Parcel v2 style
 import Icons from 'url:../../img/icons.svg'; // Parcel v2 style
-import { Fraction } from 'fractional';
+const Fraction = require('fractional').Fraction;
+// import { Fraction } from 'fractional';
 import View from './view';
 // console.log(Fraction);
 
