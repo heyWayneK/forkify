@@ -21,10 +21,6 @@ if (module.hot) {
   module.hot.accept();
 }
 
-const testFunct = function () {
-  console.log(`test`);
-};
-
 const controlRecipes = async function () {
   try {
     let hash = window.location.hash.slice(1).trim();
@@ -147,6 +143,5 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPaginationClick);
   addRecipeView._addHandlerUpload(controlAddRecipe);
-  testFunct();
 };
 init();
